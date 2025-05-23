@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetConnect Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fonte Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <section>
+      <a href="#">
+        <img src="./img/logopetcon.jpeg" alt="Logo do Petshop BigDog">
+      </a>
+      <nav>
+        <a href="#">INÍCIO</a>
+        <a href="#sobre">QUEM SOMOS</a>
+        <a href="#" onclick="mostrarModal()">ENDEREÇO</a>
+        <a href="#">NOSSOS PRODUTOS</a>
+      </nav>
+    </section>
+  </header>
+
+  <!-- Sessão principal -->
+  <main>
+
+    <!-- Apresentação -->
+    <section class="caixa-principal">
+      <div>
+        <h3>Bem-vindo a PetConnect Solutions</h3>
+        <p>Desenvolvemos soluções e produtos inovadores em IoT voltados ao cuidado, segurança e bem-estar do seu pet.</p>
+        <a class="botao-link" href="#sobre">Conheça mais</a>
+      </div>
+    </section>
+
+    <!-- Sobre nós -->
+    <section class="caixa-sobre" id="sobre">
+      <h2 class="titulo"><span>SOBRE</span> NÓS</h2>
+
+      <div class="sobre-container">
+        <div class="sobre-imagem">
+          <img src="./img/INTEGRANTES.jpeg" alt="Quem somos nós.">
+        </div>
+
+        <div class="sobre-texto">
+          <h3>PETCONNECT SOLUTIONS</h3>
+          <p>Somos uma empresa especializada no desenvolvimento de soluções inovadoras em Internet das Coisas (IoT) voltadas exclusivamente para o bem-estar e a qualidade de vida dos seus pets. Unimos tecnologia, cuidado e paixão pelos animais para criar produtos inteligentes que facilitam o dia a dia dos tutores e promovem mais conforto e segurança aos animais de estimação.
+
+Nossa equipe é composta por 10 profissionais altamente capacitados, com expertise em engenharia, design de produtos, programação embarcada e desenvolvimento de sistemas IoT. Trabalhamos de forma colaborativa, combinando conhecimento técnico com sensibilidade às necessidades do mercado pet.
+
+Acreditamos que a tecnologia pode e deve ser uma aliada no cuidado com os animais. Por isso, estamos comprometidos em desenvolver produtos inovadores, seguros e funcionais, que atendam às reais necessidades de tutores e pets em um mundo cada vez mais conectado.</p> 
+          <a class="botao-link" href="#">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Avaliações -->
+    <section id="avaliacoes">
+      <h2 class="titulo"><span>AVALIAÇÕES</span> DE CLIENTES</h2>
+      <p style="text-align:center;">(Em breve avaliações reais dos nossos clientes!)</p>
+    </section>
+  </main>
+
+  <!-- Modal de endereço -->
+  <div class="modal">
+    <h3 class="titulo"><span>NOSSO</span> ENDEREÇO</h3>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.061720065821!2d-46.667816880530694!3d-23.530282429720373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce580368f5da4b%3A0x758fb9438c746262!2sUNINOVE%20-%20Campus%20Memorial!5e0!3m2!1spt-BR!2sbr!4v1744122017610!5m2!1spt-BR!2sbr" 
+      width="600" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+  <!-- Fundo escuro da modal -->
+  <div class="mascara-modal" onclick="esconderModal()"></div>
+
+  <!-- JavaScript -->
+  <script src="./scripts.js"></script>
+
+</body>
+</html>
