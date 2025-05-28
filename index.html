@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,81 +15,214 @@
 
 <body>
 
-
   <!-- Cabeçalho -->
   <header class="header">
     <section>
-      <a href="#">
-        <img src="./img/logopetcon.jpeg" alt="Logo do Petshop BigDog">
+      <a href="#inicio" aria-label="Ir para o início">
+        <img src="./img/logopetcon.jpeg" alt="Logo da PetConnect Solutions">
       </a>
-      <nav>
-        <a href="#">INÍCIO</a>
-        <a href="#sobre">QUEM SOMOS</a>
-        <a href="#" onclick="mostrarModal()">ENDEREÇO</a>
-        <a href="#">NOSSOS PRODUTOS</a>
+      <nav aria-label="Menu de navegação principal">
+        <a>
+          <a href="#inicio">Início</a></li>
+          <a href="#sobre">Quem Somos</a></li>
+          <a href="#" onclick="mostrarModal()">Endereço</a></li>
+          <a href="#produtos">Nossos Produtos</a></li>
+          <a href="#contato">Contato</a></li>
+        </a>
       </nav>
     </section>
   </header>
 
-  <!-- Sessão principal -->
   <main>
 
     <!-- Apresentação -->
-    <section class="caixa-principal">
+    <section class="caixa-principal" id="inicio">
       <div>
-        <h3>Bem-vindo a PetConnect Solutions</h3>
+        <h1>Bem-vindo à PetConnect Solutions</h1>
         <p>Desenvolvemos soluções e produtos inovadores em IoT voltados ao cuidado, segurança e bem-estar do seu pet.</p>
         <a class="botao-link" href="#sobre">Conheça mais</a>
       </div>
     </section>
 
     <!-- Sobre nós -->
-    <section class="caixa-sobre" id="sobre">
-      <h2 class="titulo"><span>SOBRE</span> NÓS</h2>
+    <section class="caixa-sobre" id="sobre"> 
+      <h2 class="titulo"><span>Sobre</span> Nós</h2>
 
       <div class="sobre-container">
         <div class="sobre-imagem">
-          <img src="./img/INTEGRANTES.jpeg" alt="Quem somos nós.">
+          <img src="./img/PETCONNEVT.jpeg" alt="Imagem institucional da PetConnect">
         </div>
 
         <div class="sobre-texto">
-          <h3>PETCONNECT SOLUTIONS</h3>
-          <p>Somos uma empresa especializada no desenvolvimento de soluções inovadoras em Internet das Coisas (IoT) voltadas exclusivamente para o bem-estar e a qualidade de vida dos seus pets. Unimos tecnologia, cuidado e paixão pelos animais para criar produtos inteligentes que facilitam o dia a dia dos tutores e promovem mais conforto e segurança aos animais de estimação.
+          <h3>PetConnect Solutions</h3>
+          <p>A PetConnect Solutions foi fundada em 2024 com o objetivo de atender à crescente demanda no mercado pet por soluções tecnológicas inovadoras. Surgimos como resposta à necessidade de otimizar operações e aprimorar a experiência do cliente.</p>
 
-Nossa equipe é composta por 10 profissionais altamente capacitados, com expertise em engenharia, design de produtos, programação embarcada e desenvolvimento de sistemas IoT. Trabalhamos de forma colaborativa, combinando conhecimento técnico com sensibilidade às necessidades do mercado pet.
+          <p>O rápido crescimento do setor pet, aliado à necessidade de digitalização dos serviços, motivou a criação da PetConnect Solutions. A empresa nasceu da iniciativa de profissionais especializados em tecnologia e marketing digital.</p>
 
-Acreditamos que a tecnologia pode e deve ser uma aliada no cuidado com os animais. Por isso, estamos comprometidos em desenvolver produtos inovadores, seguros e funcionais, que atendam às reais necessidades de tutores e pets em um mundo cada vez mais conectado.</p> 
+          <p>Fundamentamos nossa atuação em sólidos conhecimentos técnicos e mercadológicos, sustentando nossa proposta de oferecer soluções eficientes e alinhadas às tendências tecnológicas.</p>
+
           <a class="botao-link" href="#">Saiba mais</a>
         </div>
       </div>
+
+      <!-- Integrantes -->
+      <div class="integrantes-container">
+        <article class="integrantes">
+          <img src="./img/MIKAEL.jpeg" alt="Foto de Mikael Costa">
+          <h2>Mikael Costa</h2>
+          <h3>Diretor de Tecnologia / Desenvolvedor Fullstack</h3>
+        </article>
+
+        <article class="integrantes">
+          <img src="./img/CAIO.jpeg" alt="Foto de Caio Henrique">
+          <h2>Caio Henrique</h2>
+          <h3>Desenvolvedor de Negócios / Vendas</h3>
+        </article>
+
+        <article class="integrantes">
+          <img src="./img/PEDRO.jpeg" alt="Foto de Pedro Souto">
+          <h2>Pedro Souto</h2>
+          <h3>CEO (Diretor Executivo) / Estrategista de Produtos</h3>
+        </article>
+
+        <article class="integrantes">
+          <img src="./img/PEDROBADAI.jpeg" alt="Foto de Pedro Cruz">
+          <h2>Pedro Cruz</h2>
+          <h3>Especialista em Marketing Digital e Conteúdo</h3>
+        </article>
+
+        <article class="integrantes">
+          <img src="./img/felipe.jpeg" alt="Foto de Felipe Francisco">
+          <h2>Felipe Francisco</h2>
+          <h3>.................</h3>
+        </article>
+
+        <article class="integrantes">
+          <img src="./img/guilherme.jpeg" alt="Foto de Guilherme Fernandes">
+          <h2>Guilherme Fernandes</h2>
+          <h3>Consultor Veterinário / Especialista em Bem-estar Animal</h3>
+        </article>
+
+        <article class="integrantes">
+          <img src="./img/thaina.jpeg" alt="Foto de Thainá Magalhães">
+          <h2>Thainá Magalhães</h2>
+          <h3>.................</h3>
+        </article>
+
+        <article class="integrantes">
+          <img src="./img/emily.jpeg" alt="Foto de Emily Nicole">
+          <h2>Emily Nicole</h2>
+          <h3>.................</h3>
+        </article>
+
+        <article class="integrantes">
+          <img src="./img/EMANUEL.jpeg" alt="Foto de Emmanuel Natan">
+          <h2>Emmanuel Natan</h2>
+          <h3>.................</h3>
+        </article>
+      </div>
     </section>
 
-    <!-- Avaliações -->
-    <section id="avaliacoes">
-      <h2 class="titulo"><span>AVALIAÇÕES</span> DE CLIENTES</h2>
-      <p style="text-align:center;">(Em breve avaliações reais dos nossos clientes!)</p>
+    <!-- Nossos Produtos -->
+    <section class="caixa-produtos" id="produtos">
+      <h2 class="titulo"><span>Nossos</span> Produtos</h2>
+
+      <div class="produtos-container">
+        <article class="produto-item">
+          <img class="coleira-img" src="./img/coleira.jpeg" alt="Coleira inteligente com GPS e monitoramento de saúde">
+          <h3>Coleira Inteligente</h3>
+          <p>Coleira com rastreamento GPS e monitoramento de saúde em tempo real.</p>
+        </article>
+
+        <article class="produto-item">
+          <img class="comedouro-img" src="./img/comedouro1.jpeg" alt="Comedouro automatizado para pets">
+          <h3>Comedouro Automatizado</h3>
+          <p>Gerencie remotamente os horários e a quantidade de alimentação do seu pet.</p>
+        </article>
+
+        <article class="produto-item">
+          <img src="./img/camera.jpeg" alt="Câmera interativa para monitoramento de pets">
+          <h3>Câmera Interativa</h3>
+          <p>Acompanhe e interaja com seu pet através do smartphone, mesmo à distância.</p>
+        </article>
+      </div>
     </section>
+
+ <!-- Avaliações -->
+<section id="avaliacoes">
+  <h2 class="titulo"><span>Avaliações</span> de Clientes</h2> 
+
+  <div class="avaliacao">
+    <p class="estrelas">⭐️⭐️⭐️⭐️⭐️</p>
+    <blockquote>
+      <p>“Perfeito! O comedouro e a câmera interativa mudaram minha rotina. Posso alimentar meu cachorro e interagir com ele mesmo fora de casa. Funciona super bem, é fácil de usar e o design é lindo!”</p>
+      <footer>— <strong>Mariana R.</strong></footer>
+    </blockquote>
+  </div>
+
+  <div class="avaliacao">
+    <p class="estrelas">⭐️⭐️⭐️⭐️</p>  
+    <blockquote>
+      <p>“Gostei bastante! A câmera tem boa qualidade e o comedouro funciona direitinho. Só acho que o dispenser poderia ser um pouco maior, mas no geral, atendeu minhas expectativas.”</p>
+      <footer>— <strong>Carlos A.></footer>
+    </blockquote>
+  </div>
+
+  
+  <div class="avaliacao">
+    <p class="estrelas">⭐️⭐️⭐️</p>
+    <blockquote>
+      <p>“O produto é bom, mas poderia melhorar. A conexão da câmera às vezes falha e o aplicativo poderia ser mais intuitivo. Ainda assim, cumpre o básico do que promete.”</p>
+      <footer>— <strong>Fernanda L.<footer>
+    </blockquote>
+  </div>
+
+</section>
+
+ <section id="contato">
+  <h2 class="titulo"><span>Fale</span> Conosco</h2>
+
+  <div class="contato-caixas">
+    <div class="contato-box">
+      <h3>E-mail</h3>
+      <p>
+        <a href="mailto:contato@petconnect.com.br" aria-label="Enviar e-mail para PetConnect">
+          contato@petconnect.com.br
+        </a>
+      </p>
+    </div>
+
+    <div class="contato-box">
+      <h3>WhatsApp</h3>
+      <p>
+        <a href="https://wa.me/5511982151532?text=OLA%2C%20PETCONNECT%20SOLUCTIONS" aria-label="Enviar mensagem para PetConnect via WhatsApp">
+          Nosso WhatsApp
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+</section>
+
+
   </main>
 
   <!-- Modal de endereço -->
-  <div class="modal">
-    <h3 class="titulo"><span>NOSSO</span> ENDEREÇO</h3>
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.061720065821!2d-46.667816880530694!3d-23.530282429720373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce580368f5da4b%3A0x758fb9438c746262!2sUNINOVE%20-%20Campus%20Memorial!5e0!3m2!1spt-BR!2sbr!4v1744122017610!5m2!1spt-BR!2sbr" 
-      width="600" 
-      height="450" 
-      style="border:0;" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="endereco-title">
+    <h3 class="titulo" id="endereco-title"><span>Nosso</span> Endereço</h3>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.061720065821!2d-46.667816880530694!3d-23.530282429720373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce580368f5da4b%3A0x758fb9438c746262!2sUNINOVE%20-%20Campus%20Memorial!5e0!3m2!1spt-BR!2sbr!4v1744122017610!5m2!1spt-BR!2sbr"
+      width="600" height="450" style="border:0;" allowfullscreen loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade" title="Mapa com localização da PetConnect Solutions"></iframe>
   </div>
 
   <!-- Fundo escuro da modal -->
-  <div class="mascara-modal" onclick="esconderModal()"></div>
+  <div class="mascara-modal" onclick="esconderModal()" aria-hidden="true"></div>
 
   <!-- JavaScript -->
   <script src="./scripts.js"></script>
 
 </body>
+
 </html>
